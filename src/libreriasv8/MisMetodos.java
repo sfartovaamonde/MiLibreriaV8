@@ -12,4 +12,7 @@ public class MisMetodos {
     public static String saludo(String mensaje){
         return "Saludo MODIFICACION: " + mensaje;
     }
+    public static String adios(String mensaje){
+        return "Adios: " + mensaje;
+    }
 }
