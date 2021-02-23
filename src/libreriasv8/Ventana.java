@@ -1,7 +1,13 @@
 package libreriasv8;
 
+import javax.swing.*;
+
 public class Ventana {
-    public void visualiza(String msg){
-        System.out.println("Sale por un ventana" + msg);
+    private String msg;
+    public Ventana(String msg) {
+        this.msg = msg;
+    }
+    public void visualiza(){
+        JOptionPane.showMessageDialog(null,"Sale por un ventana" + msg);
     }
 }
