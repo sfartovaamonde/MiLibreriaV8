@@ -1,6 +1,9 @@
 package libreriasv8;
 
-public class Consola implements SalidaDelMensaje{
+/**
+ * Esta clase es un producto
+ */
+public class Consola implements InterfaceMetodosComunes {
     private String msg;
 
     /**

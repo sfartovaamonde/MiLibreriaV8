@@ -2,7 +2,10 @@ package libreriasv8;
 
 import javax.swing.JOptionPane;
 
-public class Ventana implements SalidaDelMensaje{
+/**
+ * Esta clase es un producto
+ */
+public class Ventana implements InterfaceMetodosComunes {
     private String msg;
 
     /**
