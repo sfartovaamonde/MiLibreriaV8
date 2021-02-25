@@ -23,4 +23,11 @@ public class Ventana implements InterfaceMetodosComunes {
     public void visualiza(){
         JOptionPane.showMessageDialog(null,"Sale por un ventana " + msg);
     }
+
+    /**
+     * método único de ventana
+     */
+    public void metodoSoloVentana() {
+        System.out.println("Este metodo esta solo en Ventana");
+    }
 }
