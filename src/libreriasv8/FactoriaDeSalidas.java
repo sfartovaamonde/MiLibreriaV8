@@ -5,6 +5,8 @@ package libreriasv8;
  * que elegimos según el tipo
  */
 public class FactoriaDeSalidas {
+    static final int CONSOLA = 1;
+    static final int VENTANA = 2;
     /**
      * Devuelve producto del tipo de la Interface
      * @param type 1: consola, 2:ventana
@@ -14,10 +16,10 @@ public class FactoriaDeSalidas {
     public static InterfaceMetodosComunes getProducto(int type, String msg) {
         switch (type) {
             // tipo consola
-            case 1:
+            case CONSOLA:
                 return new Consola(msg);
             // tipo ventana
-            case 2:
+            case VENTANA:
                 return new Ventana(msg);
             // otro tipo
             default:
