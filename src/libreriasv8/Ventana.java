@@ -1,13 +1,23 @@
 package libreriasv8;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
-public class Ventana {
+public class Ventana implements SalidaDelMensaje{
     private String msg;
+
+    /**
+     * Constructor
+     * @param msg mensaje que queremos imprimir
+     */
     public Ventana(String msg) {
         this.msg = msg;
     }
+
+    /**
+     * Visualizamos mensaje por consola
+     */
+    @Override
     public void visualiza(){
-        JOptionPane.showMessageDialog(null,"Sale por un ventana" + msg);
+        JOptionPane.showMessageDialog(null,"Sale por un ventana " + msg);
     }
 }
