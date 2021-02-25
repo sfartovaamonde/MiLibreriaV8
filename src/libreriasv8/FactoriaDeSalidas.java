@@ -5,8 +5,8 @@ package libreriasv8;
  * que elegimos según el tipo
  */
 public class FactoriaDeSalidas {
-    static final int CONSOLA = 1;
-    static final int VENTANA = 2;
+    public static final int CONSOLA = 1;
+    public static final int VENTANA = 2;
     /**
      * Devuelve producto del tipo de la Interface
      * @param type 1: consola, 2:ventana
